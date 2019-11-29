@@ -1,0 +1,73 @@
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+
+
+body {
+    margin: auto;
+}
+
+
+html {
+    background: linear-gradient(#e66465, #9198e5);
+        font-family: century gothic;
+    color: white;
+}
+
+/* typeography */
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: Playfair-display;
+    font-size: 150%;
+    color: silver;
+    text-shadow: 6px 7px 15px rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+h1 { 
+    font-size: 8vw;
+}
+
+p, ul, ol, span {
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 3%;
+    font-family: 'Poiret One', century gothic;
+}
+
+    li {
+         padding-bottom: 2%;
+    }
+
+name, span, small {
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/* CONATINERS */
+header {
+    text-align: center;
+}
+
+div {
+    padding: 5%;
+}
+
+section {
+        background-color: rgba(0, 0, 0, .2);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 4%;
+}
