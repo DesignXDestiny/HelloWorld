@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+header {
+	align-items: center;
+	background-color: black;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	bottom: 10%;
+	right: 10%;
+	top: 10%;
+	left: 10%;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 7px #BCECBA;
+	box-shadow: 0px 7px #BCECBA;
+	background-repeat: repeat;
+	
+}
+
+h1 {
+	font-family: 'Frijole' cursive;
+	align-content: center;
+	color: lightgreen;
+}
+body {
+	align-content: center;
+	background-image: linear-gradient(black);
+	font-family: 'Abril Fatface', cursive;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/76/Spider_web_necklace_with_pearls_of_dew.JPG);
+	border-right: thick dotted c;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	background-repeat: repeat;
+	background-origin: padding-box;
+}
+h2 {
+	font-family: 'Amatic SC', cursive;
+	align-content: center;
+	border-left: thick solid chartreuse;
+	color: white;
+	outline-color: chartreuse;
+}
+p{
+	font-family: 'Cormorant Garamond', serif;
+	background-color: dimgrey;
+	color: chartreuse;
+}
+div {
+	align-content: center;
+	
+}
+h3{
+	font-family: 'Amatic SC', cursive;
+	border-left-style: solid;
+	border-left-color: chartreuse;
+	margin-right: 48px;
+	margin-left: 48px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+capition {
+	font-family: 'Amatic SC', cursive;
+	color: #C3F5C3;
+}
+table {
+	align-self: center;
+	font-family: 'Cormorant Garamond', serif;
+	background-color: darkgrey;
+	margin-bottom: 6px;
+}
+th {
+	align-items: center;
+	font-family: 'Abril Fatface', cursive;
+	background-color: chartreuse;
+	border-right: thick dotted chartreuse;
+	background-repeat: repeat;
+}
+td {align-content: space-around;
+	background-color: lightgreen;
+}
