@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rye|Sacramento');
+
+
+
+.container {
+	max-width: 800px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	border: 8px solid color: #330033; /*plum */
+	background-color: #dddddd; /* silver */
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 28px;
+	padding-top: 30px;
+	bottom: 10px;
+}
+
+body {
+	font-family: 'Poiret One', cursive;
+	background-color: #b10dc9; /*purple*/
+	margin-left: 0px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 17px;
+}
+
+header {
+	border-color: 8px cyan;
+	background-color: #330033; /* dark plum */
+	display: inline-flex;
+	font-size: 50px;
+	max-width: 775px;
+}
+
+nav {
+	font-family: 'Poiret One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 10px;
+	max-width: 72px;
+	text-align: center;
+	text-indent: 5px;
+	border-right: 2px  solid #330033; /* dark plum */
+	
+	display: inline-flex;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+section {
+	border-left-color: 8px cyan;
+	border-left-width: thick;
+	
+}
+
+.gallery {
+	float: right;
+}
+
+img {
+	resize: both;
+}
+
+footer {
+	font-family: 'Poiret One', cursive;	
+	font-size: 10px; 
+	
+	
+}
+
+
+
+h1 {
+	font-family: 'Rye', cursive;
+	font-size: 50px;
+	color: cyan;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 0%;
+	padding-left: 30%;
+}
+
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	color: fuchsia;
+	padding-top: 8px;
+	padding-right: 30%;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+h3 {
+	font-family: 'Rye', cursive;
+	font-size: 30px;
+	color: #b10dc9; /*purple*/
+}
+
+h4 {
+	font-size: 25px;
+	color: #330033; /*plum */
+}
+
+q {
+	font-family: 'Sacramento', cursive;
+	font-size: 20px;
+	color: #330033; /*plum */
+	align-content: center;
+	align-items: center;
+	border-left: dotted 4px fuchsia;
+}
