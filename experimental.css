@@ -1,0 +1,391 @@
+
+@charset "UTF-8";
+
+
+
+
+/*
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Barrio', cursive;
+     font-family: 'Montserrat', sans-serif;
+    */
+
+
+
+    img {
+    margin-bottom: 4%;
+    max-width: 32%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    }
+
+
+html {
+	background-color: black;
+		background-image: url("aloe/CrackleDirt.jpeg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+    background-position: center;
+     	color: silver;
+    	line-height: 2rem;
+    	 font-family: 'Montserrat', sans-serif;
+    	 font-size: 1.1rem;
+    }
+
+   body{
+   	 	background-color: rgba(0, 0, 0, .8);
+   }
+    p {
+    	max-width: 300px;
+    	margin: auto;
+    	padding-bottom: 10%;
+    }
+
+    h2, h3, h4, h5, h6, small {
+    	    font-family: 'Barrio', cursive;
+    	    color: white;
+    	    text-align: center;
+    	    font-size: 3rem;
+    }
+
+    h1 {
+    	color: chartreuse;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 6rem;
+    	 letter-spacing: 2.3rem;
+    }
+    nav {
+    	color: white;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 3.5rem;
+    	 text-decoration: none;
+    	 color: chartreuse;
+    }
+
+  nav a {
+    	text-decoration: none;
+    	 color: white;
+    	 padding: 1rem;
+    	 background-color: darkgreen;
+    	 border-radius: 50%;
+    }
+
+      nav a:hover {
+      	background-color: black;
+      	color: chartreuse;
+      }
+
+      nav a:active {
+      	font-size: 4rem
+      }
+
+
+      a {
+      	text-decoration: none;
+      	color: chartreuse;
+      }
+
+
+
+    header {
+    	padding: 5%;
+    }
+
+    article {
+    	background-color: darkgreen;
+    	padding: 5%;
+    	margin-bottom: 15%;
+    	margin: 10%;
+    }
+
+    section {
+    	background-color: rgba(0, 0, 0, .8);
+    	padding: 2%;
+    	margin-bottom: 5%;
+    	 justify-content: center;
+    }
+
+aside {
+	position: fixed;
+	max-width: 200px;
+	background-color: rgba(200, 80, 80, .5);
+	padding: 3%;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+     justify-content: center;
+}
+
+    footer {
+    	align-content: center;
+    	text-align: center;
+    	margin-bottom: 0px;
+    	margin-top: 15%;
+    }
+
+        small {
+    	font-size: 1rem;
+    }
+
+    footer img {
+    	max-width: 200px;
+    	margin: auto;
+    	display: block;
+    	padding: 15%;
+    }
+
+    #trees {
+    	 display: flex;
+    	flex-wrap: wrap;
+    	flex-grow: 15;
+    	  align-items: stretch;
+    	  alignment-baseline: central;
+    }
+
+
+/* medium devices */
+@media screen and (max-width: 700px) and (min-width: 321px){ 
+
+
+    img {
+    max-width: 45%;
+    margin-bottom: 4%;
+    margin: auto;
+    align-self: center;
+    alignment-baseline: central;
+    }
+
+
+html {
+    	background-color: black;
+    	color: silver;
+    	line-height: 2rem;
+    	 font-family: 'Montserrat', sans-serif;
+    	 font-size: 1.1rem;
+    }
+    p {
+    	max-width: 300px;
+    	margin: auto;
+    	padding-bottom: 10%;
+    }
+
+    h2, h3, h4, h5, h6, small {
+    	    font-family: 'Barrio', cursive;
+    	    color: white;
+    	    text-align: center;
+    	    font-size: 3rem;
+    }
+
+    h1 {
+    	color: chartreuse;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 4rem;
+    	 letter-spacing: 1.2rem;
+    }
+    nav {
+    	color: white;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 2.5rem;
+    	 text-decoration: none;
+    	 color: chartreuse;
+    	 min-width: 100%;
+    }
+
+  nav a {
+    	text-decoration: none;
+    	 color: white;
+    	 padding: 1rem;
+    	 background-color: darkgreen;
+    	 border-radius: 50%;
+    }
+
+      nav a:hover {
+      	background-color: black;
+      	color: chartreuse;
+      }
+
+      nav a:active {
+      	font-size: 4rem
+      }
+
+    header {
+    	padding: 5%;
+    }
+
+    article {
+    	background-color: darkgreen;
+    	padding: 1%;
+    	margin-bottom: 15%;
+	    margin: auto 2%;
+ 		align-content: center;
+    }
+
+    section {
+    	background-color: rgba(0, 0, 0, .7);
+    	padding: 3%;
+    	margin-bottom: 15%;
+    }
+
+aside {
+	position: fixed;
+	max-height: 50%;
+	background-color: rgba(200, 80, 80, .6);
+	padding: 1%;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+    min-width: 100%;
+}
+
+    footer {
+    	align-content: center;
+    	text-align: center;
+    	margin-bottom: 0px;
+    	margin-top: 15%;
+    }
+
+    small {
+    	font-size: 1rem;
+    }
+
+    footer img {
+    	max-width: 200px;
+    	margin: auto;
+    	display: block;
+    	padding: 10%;
+    }
+
+}
+
+
+/* medium devices */
+@media screen and (max-width: 300px) { 
+
+
+
+    img {
+    max-width: 45%;
+    margin-bottom: 4%;
+    margin: auto;
+    align-self: center;
+    alignment-baseline: central;
+    }
+
+
+html {
+    	background-color: black;
+    	color: silver;
+    	line-height: 1.5rem;
+    	 font-family: 'Montserrat', sans-serif;
+    	 font-size: 1rem;
+    }
+    p {
+    	max-width: 300px;
+    	margin: auto;
+    	padding-bottom: 5%;
+    }
+
+    h2, h3, h4, h5, h6, small {
+    	    font-family: 'Barrio', cursive;
+    	    color: white;
+    	    text-align: center;
+    	    font-size: 2rem;
+    }
+
+    h1 {
+    	color: chartreuse;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 3rem;
+    	 letter-spacing: 1rem;
+    }
+    nav {
+    	color: white;
+    	 font-family: 'Amatic SC', cursive;
+    	 text-align: center;
+    	 align-content: center;
+    	 font-size: 1rem;
+    	 text-decoration: none;
+    	 color: chartreuse;
+    	 min-width: 100%;
+    	 margin: 0px;
+    }
+
+  nav a {
+    	text-decoration: none;
+    	 color: white;
+    	 padding: 1rem;
+    	 background-color: darkgreen;
+    	 border-radius: 50%;
+    }
+
+      nav a:hover {
+      	background-color: black;
+      	color: chartreuse;
+      }
+
+      nav a:active {
+      	font-size: 2rem
+      }
+
+    header {
+    	padding: 5%;
+    }
+
+    article {
+    	background-color: darkgreen;
+    	padding: 1%;
+    	margin-bottom: 15%;
+	    margin: auto 0px;
+ 		align-content: center;
+    }
+
+    section {
+    	background-color: linear-gradient: (rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)); 
+    	padding: 3%;
+    	margin-bottom: 15%;
+    }
+
+aside {
+	position: fixed;
+	max-height: 50%;
+	background-color: rgba(200, 80, 80, .6);
+	padding: 1%;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+    min-width: 100%;
+}
+
+    footer {
+    	align-content: center;
+    	text-align: center;
+    	margin-bottom: 0px;
+    	margin-top: 15%;
+    }
+
+    small {
+    	font-size: 1rem;
+    }
+
+    footer img {
+    	max-width: 200px;
+    	margin: auto;
+    	display: block;
+    	padding: 10%;
+    }
+
+}
+
